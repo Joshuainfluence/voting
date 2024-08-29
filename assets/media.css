@@ -26,6 +26,7 @@
         align-items: center;
         font-size: 1.3rem;
         font-weight: 600;
+        padding: 0 0 0 1.5rem;
     }
 
     header nav .tabs {

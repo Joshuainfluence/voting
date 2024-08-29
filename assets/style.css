@@ -40,7 +40,7 @@ header nav .logo {
     justify-content: start;
     align-items: center;
     font-size: 1.3rem;
-    padding: 0 0 0 0.5rem;
+    padding: 0 0 0 4.5rem;
     font-weight: 600;
     z-index: 1;
 }
@@ -89,7 +89,15 @@ ul li .registerBtn {
     color: #fff;
     margin: -0.4rem 1rem 0 0;
     border-radius: 5px;
+    transition: 0.3s ease-in;
 
+}
+
+ul li .registerBtn:hover{
+    background: #ccc;
+    border: 1px solid #ccc;
+    color: #333;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
 
 /* ul li:nth-child(5){
@@ -107,20 +115,15 @@ ul li:nth-child(5) .select {
     backdrop-filter: blur(1rem);
 
 }
-ul li:nth-child(5) .select a{
+
+ul li:nth-child(5) .select a {
     width: 100%;
-  display: flex;
-  font-size: 0.7rem;
-  text-align: center;
-  padding: 1rem 0 0 0;
-  background: #ccc;
-
+    display: flex;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 1rem 0 0 0;
+    background: #ccc;
 }
-ul li:nth-child(5){
-    transition: all 1.3s ease-out;
-
-}
-
 ul li:nth-child(5):hover .select {
     visibility: visible;
 
@@ -223,6 +226,13 @@ section .container .row .col .footer a {
     background: #333;
     border-radius: 5px;
     color: #fff;
+    transition: 0.3s ease-in;
+}
+
+section .container .row .col .footer a:hover {
+    background: #ccc;
+    color: #333;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
 
 .shadow {
