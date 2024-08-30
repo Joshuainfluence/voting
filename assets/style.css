@@ -44,6 +44,16 @@ header nav .logo {
     font-weight: 600;
     z-index: 1;
 }
+header nav .logo img{
+    width: 50%;
+    height: 60%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  
+    z-index: 1;
+}
 
 .hamburger {
     display: none;

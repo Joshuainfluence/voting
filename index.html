@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
         rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 
@@ -17,7 +18,8 @@
     <header>
         <nav>
             <div class="logo">
-               NACOS Election
+                <!-- NACOS Election -->
+                <img src="assets/img/logo-removebg-preview.png" alt="">
             </div>
             <button id="menu-btn" class="hamburger">
                 <span class="hamburger-top"></span>
@@ -233,7 +235,7 @@
                         <a href="">Vote</a>
                     </div>
                 </div>
-                
+
                 <div class="col shadow">
                     <div class="image">
                         <img src="assets/img/vote2.jpg" alt="">
@@ -253,67 +255,89 @@
                     </div>
                 </div>
 
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-            <div class="col shadow">
-                <div class="image">
-                    <img src="assets/img/vote2.jpg" alt="">
+                <!-- </div> -->
+                <!-- <div class="row"> -->
+                <div class="col shadow">
+                    <div class="image">
+                        <img src="assets/img/vote2.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>James roland</h3>
+                        <h5>Running to be: <span class="fw">President</span></h5>
+                    </div>
+                    <div class="body">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed delectus placeat
+                            laudantium sit? Facilis nam ullam omnis pariatur quod quibusdam maiores sint ea! Quisquam
+                            harum aspernatur et expedita recusandae.</h6>
+                    </div>
+                    <div class="footer">
+                        <a href="">View Manifesto</a>
+                        <a href="">Vote</a>
+                    </div>
                 </div>
-                <div class="title">
-                    <h3>James roland</h3>
-                    <h5>Running to be: <span class="fw">President</span></h5>
+                <div class="col shadow">
+                    <div class="image">
+                        <img src="assets/img/vote2.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>James roland</h3>
+                        <h5>Running to be: <span class="fw">President</span></h5>
+                    </div>
+                    <div class="body">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed delectus placeat
+                            laudantium sit? Facilis nam ullam omnis pariatur quod quibusdam maiores sint ea! Quisquam
+                            harum aspernatur et expedita recusandae.</h6>
+                    </div>
+                    <div class="footer">
+                        <a href="">View Manifesto</a>
+                        <a href="">Vote</a>
+                    </div>
                 </div>
-                <div class="body">
-                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed delectus placeat
-                        laudantium sit? Facilis nam ullam omnis pariatur quod quibusdam maiores sint ea! Quisquam
-                        harum aspernatur et expedita recusandae.</h6>
+                <div class="col shadow">
+                    <div class="image">
+                        <img src="assets/img/vote2.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h3>James roland</h3>
+                        <h5>Running to be: <span class="fw">President</span></h5>
+                    </div>
+                    <div class="body">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed delectus placeat
+                            laudantium sit? Facilis nam ullam omnis pariatur quod quibusdam maiores sint ea! Quisquam
+                            harum aspernatur et expedita recusandae.</h6>
+                    </div>
+                    <div class="footer">
+                        <a href="">View Manifesto</a>
+                        <a href="">Vote</a>
+                    </div>
                 </div>
-                <div class="footer">
-                    <a href="">View Manifesto</a>
-                    <a href="">Vote</a>
-                </div>
-            </div>
-            <div class="col shadow">
-                <div class="image">
-                    <img src="assets/img/vote2.jpg" alt="">
-                </div>
-                <div class="title">
-                    <h3>James roland</h3>
-                    <h5>Running to be: <span class="fw">President</span></h5>
-                </div>
-                <div class="body">
-                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed delectus placeat
-                        laudantium sit? Facilis nam ullam omnis pariatur quod quibusdam maiores sint ea! Quisquam
-                        harum aspernatur et expedita recusandae.</h6>
-                </div>
-                <div class="footer">
-                    <a href="">View Manifesto</a>
-                    <a href="">Vote</a>
-                </div>
-            </div>
-            <div class="col shadow">
-                <div class="image">
-                    <img src="assets/img/vote2.jpg" alt="">
-                </div>
-                <div class="title">
-                    <h3>James roland</h3>
-                    <h5>Running to be: <span class="fw">President</span></h5>
-                </div>
-                <div class="body">
-                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed delectus placeat
-                        laudantium sit? Facilis nam ullam omnis pariatur quod quibusdam maiores sint ea! Quisquam
-                        harum aspernatur et expedita recusandae.</h6>
-                </div>
-                <div class="footer">
-                    <a href="">View Manifesto</a>
-                    <a href="">Vote</a>
-                </div>
-            </div>
 
             </div>
         </div>
     </section>
     <script src="assets/js/nav.js"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+        ScrollReveal().reveal('.about-text', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.about .profileImg', { delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.about-content p', { delay: 700, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.about-content h4', { delay: 800, origin: 'left' });
+        ScrollReveal().reveal('.about-content .row .col ul li', { delay: 900, origin: 'bottom', interval: 100 });
+        // scroll effect for the experience
+        ScrollReveal().reveal('.experience-content h3 a', { delay: 600, origin: 'bottom', interval: 200 });
+        ScrollReveal().reveal('.company-text h4', { delay: 700, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.company-logo', { delay: 800, origin: 'bottom', interval: 200 });
+        
+        // scroll effect for the projects
+        ScrollReveal().reveal('.col-project', { delay: 500, origin: 'bottom', interval: 200 });
+        </script>
+    <script src="assets/js/scroll.js"></script>
+
 </body>
 
 </html>
